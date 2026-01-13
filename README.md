@@ -6,6 +6,14 @@ A USB Security Dongle Emulator for Tekken 6 and Tekken 6 Bloodline Rebellion for
 
 For use with Raspberry Pi Zero / Zero 2. I personally have used it with a Pi Zero 2 W, so I assume other models of Zero work too.
 
+
+NOTE: The emulated USB itself comes from the Pi Zero's USB OTG port, so you will need a micro usb cable to plug into the 357/369.
+Also, the Pi Zero's CANNOT be powered by the 357/369 by itself, as it just browns out and constantly reboots the Pi Zero, so you
+will need to either externally power it from another source, or use a usb hub. I personally use a usb hub off amazon and it works
+fine. It's also handy as 357C's only have one usb port.
+
+
+
 Run these commands too beforehand.
 ```
 sudo mkdir /T6BRD
