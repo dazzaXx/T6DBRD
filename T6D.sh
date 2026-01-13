@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# T6D - Tekken 6 Bloodline Rebellion Security Dongle Emulator, made by dazzaXx.
+# T6D - Tekken 6 Security Dongle Emulator, made by dazzaXx.
 # ------------------------------------------------------------------------
 #
 # The script sets up all configurations needed to make this work, it also prints out what it is doing in a .log since if the script is ran from
