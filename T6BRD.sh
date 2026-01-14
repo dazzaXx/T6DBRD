@@ -54,6 +54,7 @@ fi
 if [ ! -f "$LIBCOMPOSITE" ]; then # Check to see if libcomposite has a .conf file in modules-load.d , if not, create the file and print the module name within itself.
 	echo "[$timestamp] libcomposite module not loaded, creating .conf file now and rebooting." >> "$SHLOG"
 	echo "libcomposite" > "$LIBCOMPOSITE"
+	reboot
 else
 	echo "[$timestamp] libcomposite is already present, skipping." >> "$SHLOG" 
 fi
